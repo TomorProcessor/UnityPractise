@@ -2052,6 +2052,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Quaternion
 
+	//Start Registrations for type : UnityEngine.Random
+
+		//System.Single UnityEngine.Random::Range(System.Single,System.Single)
+		void Register_UnityEngine_Random_Range();
+		Register_UnityEngine_Random_Range();
+
+	//End Registrations for type : UnityEngine.Random
+
 	//Start Registrations for type : UnityEngine.RectOffset
 
 		//System.Int32 UnityEngine.RectOffset::get_bottom()
@@ -2325,6 +2333,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Rigidbody::AddExplosionForce_Injected(System.Single,UnityEngine.Vector3&,System.Single,System.Single,UnityEngine.ForceMode)
 		void Register_UnityEngine_Rigidbody_AddExplosionForce_Injected();
 		Register_UnityEngine_Rigidbody_AddExplosionForce_Injected();
+
+		//System.Void UnityEngine.Rigidbody::AddForce_Injected(UnityEngine.Vector3&,UnityEngine.ForceMode)
+		void Register_UnityEngine_Rigidbody_AddForce_Injected();
+		Register_UnityEngine_Rigidbody_AddForce_Injected();
 
 	//End Registrations for type : UnityEngine.Rigidbody
 
